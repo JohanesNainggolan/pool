@@ -36,6 +36,7 @@ jobs:
         path: |
           consominer
           consominer.exe
+
   package-release:
     if: contains(github.ref, '/tags/')
     name: Package and Upload
